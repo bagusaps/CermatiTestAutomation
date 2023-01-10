@@ -7,6 +7,7 @@ import org.junit.runner.RunWith;
         stepNotifications = true,
         features = "src/test/resources/features",
         glue = {"steps","utilities"},
+        monochrome = true,
         tags = "@DaftarAkunCermatiFeature"
 )
 

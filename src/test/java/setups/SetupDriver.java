@@ -10,7 +10,7 @@ public class SetupDriver extends InitiateDriver{
     public void startBrowser(){
         final String dir = System.getProperty("user.dir");
         System.out.println("current dir = " + dir);
-        System.setProperty("webdriver.chrome.driver", dir+"/driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", dir+"/driver/chromedriver-new");
         driver = new ChromeDriver();
         setDriverInstance(driver);
     }
